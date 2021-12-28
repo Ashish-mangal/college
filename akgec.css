@@ -1,6 +1,7 @@
 @charset "utf-8";
 body{
     background-color: #ddd1c1;
+    padding:20px;
 
     margin: 0px;
     padding: 0px;
@@ -29,7 +30,9 @@ nav{
     box-shadow: 2px 2px 12px rgba(44, 34, 34, 0.5);
     padding: 0px 5%;
     width:100%;
-    left:-30px;
+    position:fixed;
+    z-index:1;
+    left:0px;
     right:0px;
    
 }
